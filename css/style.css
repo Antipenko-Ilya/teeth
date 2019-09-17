@@ -77,10 +77,10 @@
 .advantage-content__element {
     display: flex;
 }
-/* .advantage-content__text {
+.advantage-content__text {
     display: flex;
     flex-direction: column;
-} */
+}
 .advantage-content__title {
     display: block;
 }
@@ -91,6 +91,9 @@
     display: flex;
     flex-direction: column;
 }
+.comment-content {
+    background-image: url(../img/comment/comment_bg.png);
+}
 .comments {
     display: flex;
 }
@@ -100,4 +103,7 @@
 .comment-item {
     display: flex;
     flex-direction: column;
+}
+.comments__text {
+    display: flex;
 }
